@@ -1,4 +1,7 @@
 # Veille technologique - Proposition formelle
+#### Ariane Courcy
+#### Remise à Nicolas Bourré
+ 
 
 ## Survol des intérêts
 
