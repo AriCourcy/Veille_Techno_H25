@@ -11,3 +11,7 @@ Dans la configuration du vlan, on doit choisir la plage réseau que l'on désire
 Il faut aussi activé le DHCP server pour que le vlan distribue automatiquement une adresse ip.
 
 ![Alt text](./images/VLAN3.png)
+
+Pour tester, nous pouvons configurer des interfaces réseaux virtuelles sur un portable et voir si le vlan nous propose des bonnes adresses ip.
+
+![Alt text](./images/VLAN4.png)
