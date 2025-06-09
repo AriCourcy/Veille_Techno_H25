@@ -17,7 +17,7 @@ Ressources:
 
 #### 2. Développement d'un chatbot IA intégré à un serveur Discord
 
-Dans le cadre de nos cours en informatique nous pourrions avoir un chatbot par cours. Celui-ci pourrait être entrainé pour répondre aux besoins spécifiques du cours. Ce bot pourrait aussi avoir d'autres fonctions comme éxécuter des commandes ou intéragir avec d'autres API. Ce projet aiderait à se familiariser avec les bots discord et les événements asynchrones.
+Dans le cadre de nos cours en informatique nous pourrions avoir un chatbot par cours. Celui-ci pourrait être entrainé pour répondre aux besoins spécifiques du cours. Ce bot pourrait aussi avoir d'autres fonctions comme exécuter des commandes ou intéragir avec d'autres API. Ce projet aiderait à se familiariser avec les bots discord et les événements asynchrones.
 
 Ressources:
 - https://discord.js.org/
@@ -47,7 +47,7 @@ Ressources:
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
 - https://mariadb.com/
 
-#### 5. Création et test d'une infrastrcture réseau avec Fortinet et Cisco
+#### 5. Création et test d'une infrastructure réseau avec Fortinet et Cisco
 
 Plusieurs entreprises utilisent un pare-feu sans avoir d'environnement de test, car c'est très dispendieux. Le but ici, est de créer un mini-environnement de test et de s'entraîner sur l'environnement Fortinet et Cisco sans danger pour l'entreprise. Ce projet vise donc à créer un mini-nœud réseau. On pourra tester plusieurs scénarios comme la sécurisation des accès, la gestion du trafic et plus. 
 
@@ -105,7 +105,7 @@ Le projet propose de créer un bot Discord qui se connecte à l'application ToDo
 
 Ce projet consiste à développer un jeu en ligne similaire à "Song Pop", où les utilisateurs doivent deviner des chansons à partir d'extraits fournis par l'API YouTube Music. Le jeu inclut des modes de jeu comme deviner le titre ou l'artiste. 
 
-**5. Création et test d'une infrastrcture réseau avec Fortinet et Cisco:**
+**5. Création et test d'une infrastructure réseau avec Fortinet et Cisco:**
 
 Ce projet se concentre sur la création d'une infrastructure réseau sécurisée en utilisant des équipements Fortinet pour la gestion de la sécurité (pare-feu et gestion des accès) et Cisco pour la gestion des routeurs et switches. 
 
@@ -115,12 +115,12 @@ Pour faire mon choix final, je me suis basée sur mes intérêts et sur l'utilit
 
 ## Objectifs du projet
 
-- Maîtriser la base des infrasctructures Fortinet et Cisco
-- Batîr une infrasctructure réseau simple et réaliste
+- Maîtriser la base des infrastructures Fortinet et Cisco
+- Bâtir une infrasctructure réseau simple et réaliste
 - Tester l'infrasctructure
 
 Mesurables: 
-- Avoir les configurations de bases foncionnelles sur les deux environements
+- Avoir les configurations de bases fonctionnelles sur les deux environements
 - Avoir une communication entre le pare-feu et la switch
 - Tester des cas spécifiques sur la sécurité (si le temps le permet)
 
