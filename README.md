@@ -22,7 +22,7 @@ L'objectif de ce projet est de mettre en place une telle infrastructure réseau 
 
 La configuration du pare-feu impliquera la définition des paramètres de connexion WAN et la configuration des interfaces réseau. Ensuite, nous configurerons la switch Cisco pour connecter les différents segments de réseau et définir les paramètres de commutation. La dernière étape sera d'ajouter les règles sur le pare-feu pour segmenter les différents segments de réseau. À la fin de ce projet, nous aurons mis en place une infrastructure réseau simple et sécurisée qui nous permettra de tester et d'évaluer les performances de nos équipements et de nos configurations réseau, et de garantir la sécurité et la fiabilité de nos réseaux informatiques.
 
-![Alt text](./documentations/images/PLAN.png)
+<img src="./documentations/images/PLAN.png" width="100%" height="1000">
 
 Notre infrastructure réseau comportera trois VLAN : un pour le bureau et deux pour les laboratoires[^2].
 
