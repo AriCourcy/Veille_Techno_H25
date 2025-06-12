@@ -96,6 +96,16 @@ Ces difficultés ont mis en évidence l'importance de disposer d'une documentati
 
 ## Conclusion <a id ="conclusion"></a>
 
+En conclusion, ce projet a démontré l'importance d'une bonne infratructure réseau pour garantir la sécurité et la fiabilité des communications. Le pare-feu et la switch Cisco ont été configurés pour créer une infrastructure réseau sécurisée et flexible, capable de gérer les communications entre les différents réseaux virtuels.
+
+Il est important de noter que les possibilités de configuration du pare-feu et de la switch Cisco sont quasi infinies, et que nous n'avons expérimenté ici que quelques-unes des nombreuses fonctionnalités disponibles. Le pare-feu permet de nombreuses choses, telles que la détection et la prévention des intrusions, la gestion des accès, la mise en place de règles de trafic, etc.
+
+L'importance d'une bonne infrastructure réseau ne doit pas être négligée, car elle est essentielle pour garantir la sécurité et la fiabilité des communications. Une infrastructure réseau bien conçue et bien configurée peut aider à prévenir les attaques et les pertes de données, et à garantir que les utilisateurs ont accès aux ressources nécessaires pour leur travail.
+
+En résumé, ce projet a démontré l'importance de la planification et de la configuration d'une infrastructure réseau pour garantir la sécurité et la fiabilité des communications. Il est essentiel de prendre en compte les besoins et les exigences de l'organisation pour concevoir et configurer une infrastructure réseau qui répond à ces besoins et qui est capable de garantir la sécurité et la fiabilité des communications.
+
+Ce projet servira de test pour notre Cégep afin d'avoir un environnement de test.
+
 ## Médiagraphie <a id ="mediagraphie"></a>
 
 [^1]: CIRA. (2024). CIRA 2024 Cybersecurity Report. Récupéré de https://www.cira.ca/uploads/2024/09/CIRA-2024-Cybersecurity-Report.pdf, Consulté le 8 juin 2025
