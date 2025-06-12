@@ -121,7 +121,7 @@ Ce projet servira de test pour notre Cégep afin d'avoir un environnement pour e
 
 [^1]: CIRA. (2024). CIRA 2024 Cybersecurity Report. Récupéré de https://www.cira.ca/uploads/2024/09/CIRA-2024-Cybersecurity-Report.pdf, Consulté le 8 juin 2025
 
-[^2]: DuckGo, Prompt: [duck.ai/prompt](./documentations/duck.ai_2025-06-12_15-16-47.txt), Duck.ai, Llama 3.3 70B Model, https://duckduckgo.com, Généré le 12 juin 2025
+[^2]: DuckGo, Prompt: [duckAI prompt](./documentations/duck.ai_2025-06-12_15-16-47.txt), Duck.ai, Llama 3.3 70B Model, https://duckduckgo.com, Généré le 12 juin 2025
 
 [^3]: Microsoft, Prompt: https://copilot.microsoft.com/shares/4TRTwPKWooDKMSSNtdHiA, Copilot, Version Web (aucune version précise), https://copilot.microsoft.com/, Généré le 12 juin 2025
 
