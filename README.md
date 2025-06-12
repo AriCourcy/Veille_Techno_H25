@@ -74,6 +74,8 @@ Voici une liste des documentations qui ont été créées:
 - [Configuration de la switch Cisco](./documentations/cisco_config.md)
 - [Implémentation des règles de pare-feu](./documentations/policies.md)
 
+Cette règle de trafic est un exemple de la façon dont la segmentation réseau peut être utilisée pour contrôler les communications entre les différents réseaux virtuels et garantir la sécurité de l'infrastructure. En créant des règles de trafic personnalisées, il est possible de contrôler les communications entre les VLANs et de garantir que les utilisateurs n'accèdent qu'aux ressources nécessaires pour leur travail.
+
 Malgré tout, les documentations officielles ont été explorées pour faciliter la compréhension de l'environnement[^4] [^5].
 
 **<ins>Autres technologies</ins>** <a id ="autres-technologies"></a>
