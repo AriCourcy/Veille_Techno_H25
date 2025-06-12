@@ -15,6 +15,7 @@
     - [Choix des technologies](#choix-des-technologies)
     - [Implémentation](#implementation)
     - [Autres technologies](#autres-technologies)
+    - [Difficultés](#difficultes)
 - [Conclusion](#conclusion)
 - [Médiagraphie](#mediagraphie)
 
@@ -82,6 +83,14 @@ Malgré tout, les documentations officielles ont été explorées pour faciliter
 Pour la commutation, des switches de marque HP, Dell ou Netgear pourraient être utilisées à la place de Cisco. Ces switches offrent des fonctionnalités de commutation Gigabit Ethernet, des capacités de gestion de réseau et des fonctionnalités de sécurité, telles que la gestion des accès et la détection des intrusions.
 
 D'autres alternatives pourraient également être considérées, telles que les solutions de sécurité réseau de Sophos, de WatchGuard ou de SonicWall, qui offrent des fonctionnalités de sécurité avancées et des capacités de gestion de réseau. Les choix de ces alternatives dépendraient des besoins spécifiques de l'infrastructure et des exigences de sécurité de l'organisation.
+
+**<ins>Difficultés</ins>** <a id ="difficultes"></a>
+
+Malheureusement, le manque de documentation sur le projet a entraîné une quantité importante de recherches non prévues, ce qui a considérablement allongé le temps de réalisation. En conséquence, le temps a manqué pour expérimenter davantage et pour approfondir certaines aspects du projet, ce qui a limité la portée des résultats obtenus.
+
+De plus, la staticité des appareils physiques utilisés pour le projet a également posé des problèmes, car elle a empêché de travailler à certains moments, notamment lorsqu'il était nécessaire de déplacer ou de reconfigurer les équipements. Cela a entraîné des retards et des interruptions dans le travail, ce qui a encore réduit le temps disponible pour expérimenter et pour améliorer les résultats.
+
+Ces difficultés ont mis en évidence l'importance de disposer d'une documentation complète et à jour, ainsi que de la flexibilité et de la mobilité des équipements physiques, pour garantir la réussite d'un projet de ce type.
 
 ## Conclusion <a id ="conclusion"></a>
 
