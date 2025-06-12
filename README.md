@@ -12,6 +12,9 @@
     - [Objectif](#objectif)
     - [Planification](#planification)
 - [Explication des fonctionnalités](#explication-des-fonctionnalites)
+    - [Choix des technologies](#choix-des-technologies)
+    - [Implémentation](#implementation)
+    - [Autres technologies](#autres-technologies)
 - [Conclusion](#conclusion)
 - [Médiagraphie](#mediagraphie)
 
@@ -37,17 +40,42 @@ La configuration du pare-feu impliquera la définition des paramètres de connex
 
 Notre infrastructure réseau comportera un pare-feu qui sera connecté à une switch pour étendre les réseaux virtuels (vlans) et garantir la sécurité des communications. Les vlans seront configurés pour séparer les différents locaux, la switch sera utilisée pour tester la communication entre les interfaces. Nous aurons trois interfaces réseau : un bureau qui servira d'interface de gestion, une pour le laboratoire un et une pour le laboratoire deux. Ces interfaces seront configurées pour recréer l'infrastructure du département d'informatique et garantir la sécurité et la fiabilité des communications[^2].
 
-<img src="./documentations/images/PLAN1.png" width="100%" height="1000">
+<img src="./documentations/images/PLAN1.png" width="100%" height="800">
 
-Notre infrastructure réseau comportera trois VLAN : un pour le bureau et deux pour les laboratoires.
+## Explication des fonctionnalités <a id ="explication-des-fonctionnalites"></a>
+
+**<ins>Choix des technologies</ins>** <a id ="choix-des-technologies"></a>
+
+Notre infrastructure réseau sera équipée d'un pare-feu Fortigate-40F, qui offre une sécurité réseau robuste et une grande flexibilité de configuration. Nous avons choisi ce modèle pour sa disponibilité et son adaptabilité aux besoins de petites entreprises, qui nécessitent une sécurité réseau efficace sans les coûts et la complexité associés aux solutions plus grandes. Nous n'aurons malheureusement pas les ressources et le temps de tout configurer dans ce projet.
+
+Notre infrastructure réseau sera également équipée d'une switch Cisco 8 ports, qui offre une grande flexibilité et une facilité de configuration. Nous avons choisi ce modèle pour sa simplicité de mise en œuvre et sa capacité à gérer les communications entre les différents équipements de notre réseau. De plus, sa facilité de configuration nous permettra de mettre en place rapidement et facilement les paramêtres de gestion de réseau nécessaires pour protéger notre infrastructure.
+
+Au lieu de utiliser des zones de sécurité sur le Fortigate, nous avons choisi de configurer des VLANs (Virtual Local Area Networks) pour séparer les différents réseaux et améliorer la sécurité de notre infrastructure. Les VLANs nous permettent de créer des réseaux virtuels isolés les uns des autres, ce qui réduit les risques de propagation des attaques et des menaces. De plus, la configuration des VLANs est plus simple et plus intuitive que la configuration des zones, ce qui nous permet de gérer plus facilement les paramètres de sécurité et de réseau.
+
+Notre infrastructure réseau comportera trois VLAN : un pour le bureau et deux pour les laboratoires[^3].
 
 - VLAN2: Bureau - 10.0.2.0/24
 - VLAN3: LAB01 - 10.0.3.0/24
 - VLAN4: LAB02 - 10.0.4.0/24
 
+<img src="./documentations/images/PLAN2.png" width="100%" height="800">
+
 Le bureau sera en mesure de surveiller et de gérer les laboratoires, mais les laboratoires seront isolés les uns des autres et ne pourront pas se voir. De même, les laboratoires ne pourront pas accéder au bureau, ce qui permettra de maintenir une séparation stricte entre les différents environnements de travail.
 
-## Explication des fonctionnalités <a id ="explication-des-fonctionnalites"></a>
+**<ins>Implémentation</ins>** <a id ="implementation"></a>
+
+Pour toute l'implémentation, la documentation existante était incomplète, ce qui a nécessité une exploration approfondie pour comprendre les configurations requises. Une exploration a donc été menée pour combler les lacunes de la documentation et découvrir les meilleures pratiques pour l'infrastructure. Cette exploration a permis de créer des documentations détaillées et précises pour les futures configurations, ce qui facilitera la mise en œuvre et la gestion de l'infrastructure.
+
+Voici une liste des documentations qui ont été créées:
+
+- [Activation du WAN](./documentations/wan.md)
+- [Création d'un VLAN](./documentations/vlan.md)
+- [Configuration de la switch Cisco](./documentations/cisco_config.md)
+- [Implémentation des règles de pare-feu](./documentations/policies.md)
+
+Malgré tout, les documentations officielles ont été explorées pour faciliter la compréhension de l'environnement[^4] [^5].
+
+**<ins>Autres technologies</ins>** <a id ="autres-technologies"></a>
 
 ## Conclusion <a id ="conclusion"></a>
 
@@ -55,9 +83,10 @@ Le bureau sera en mesure de surveiller et de gérer les laboratoires, mais les l
 
 [^1]: CIRA. (2024). CIRA 2024 Cybersecurity Report. Récupéré de https://www.cira.ca/uploads/2024/09/CIRA-2024-Cybersecurity-Report.pdf, Consulté le 8 juin 2025
 
-[^2]: Microsoft, Prompt: https://copilot.microsoft.com/shares/4TRTwPKWooDKMSSNtdHiA, Copilot, Version Web, https://copilot.microsoft.com/, Généré le 12 juin 2025
+[^2]: Microsoft, Prompt: https://copilot.microsoft.com/shares/4TRTwPKWooDKMSSNtdHiA, Copilot, Version Web (aucune version précise), https://copilot.microsoft.com/, Généré le 12 juin 2025
 
 [^3]: OpenAI, Prompt: https://chatgpt.com/share/68487cf6-bfc0-8008-b970-63f259c72cd0, ChatGPT, Version GPT-4o mini, https://chatgpt.com/, Généré le 10 juin 2025
 
-- https://docs.fortinet.com/
-- https://www.netacad.com/ (Documentation et formations Cisco)
+[^4]: Fortinet. (2022). FortiGate Administration Guide (Chapitre 5 : Configuration du pare-feu), Récupéré de https://docs.fortinet.com/, Consulté le 26 mai 2025
+
+[^5]: Cisco Systems, Inc. (2022). CCNA Routing and Switching. Récupéré de https://www.netacad.com/, Généré le 26 mai 2025
