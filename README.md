@@ -77,6 +77,12 @@ Malgré tout, les documentations officielles ont été explorées pour faciliter
 
 **<ins>Autres technologies</ins>** <a id ="autres-technologies"></a>
 
+À la place de Fortigate, des solutions telles que Juniper SRX, Check Point Next Generation Firewall ou Palo Alto Networks Firewall pourraient être utilisées pour offrir des fonctionnalités de sécurité réseau avancées. Ces solutions proposent des capacités de détection et de prévention des menaces, ainsi que des fonctionnalités de gestion de réseau et de sécurité.
+
+Pour la commutation, des switches de marque HP, Dell ou Netgear pourraient être utilisées à la place de Cisco. Ces switches offrent des fonctionnalités de commutation Gigabit Ethernet, des capacités de gestion de réseau et des fonctionnalités de sécurité, telles que la gestion des accès et la détection des intrusions.
+
+D'autres alternatives pourraient également être considérées, telles que les solutions de sécurité réseau de Sophos, de WatchGuard ou de SonicWall, qui offrent des fonctionnalités de sécurité avancées et des capacités de gestion de réseau. Les choix de ces alternatives dépendraient des besoins spécifiques de l'infrastructure et des exigences de sécurité de l'organisation.
+
 ## Conclusion <a id ="conclusion"></a>
 
 ## Médiagraphie <a id ="mediagraphie"></a>
